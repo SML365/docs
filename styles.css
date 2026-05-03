@@ -327,6 +327,14 @@ body
 .Footer
 {
     font-size: 15px;
-    position: relative;
-    top: 200px;
+    margin: 30px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Footer a
+{
+    padding: 20px;
 }
