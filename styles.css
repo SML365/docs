@@ -323,3 +323,10 @@ body
     position: absolute;
     top: 100px;
 }
+
+.Footer
+{
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+}
