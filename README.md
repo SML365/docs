@@ -1,3 +1,3 @@
-# Direct+ Official Documentation
+# Direct+ Repository
 
-Here lives the code for the documentation website for Direct+.
+- docs: Direct+'s official documentation website [(Visit Here)](sml365.github.io/directplus/docs)
