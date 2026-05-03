@@ -1,6 +1,6 @@
 # Direct+ Repository
 
-- docs: Direct+'s official documentation website [(Visit Here)](sml365.github.io/directplus/docs)
+- [Direct+ Documentation](https://sml365.github.io/directplus/docs)
 
 - [Direct+ Project (Scratch)](https://scratch.mit.edu/projects/1183429217)
 
