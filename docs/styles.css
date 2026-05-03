@@ -164,6 +164,11 @@ body
     color: #f29901;
 }
 
+.LinkGray
+{
+    color: gray;
+}
+
 .Link
 {
     color: rgb(79, 139, 185);
@@ -371,6 +376,9 @@ body
     display: flex;
     justify-content: center;
     padding: 20px;
+
+    position: relative;
+    top: 50px;
 }
 
 .Footer a
