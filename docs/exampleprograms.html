@@ -11,6 +11,98 @@
                 <div class="Title">
                     <a href="index.html" class="Back">Back</a> 
                     <h1>EXAMPLE PROGRAMS</h1>
+
+                    <span class="White" id="Program1">4-function Calculator: </span>
+                    <div class="Break"></div>
+
+                    <div class="CodeBlock">
+                        <div>
+                            <span class="Explanation">$ define variables</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(num1</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(num2</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(operator</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(result</span><span class="Argument">)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Explanation">$ get user input</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter first number: "</span><span class="Argument"><span class="Arrow"> => </span>num1)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter second number: "</span><span class="Argument"><span class="Arrow"> => </span>num2)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter operator (+, -, *, /): "</span><span class="Argument"><span class="Arrow"> => </span>operator)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Explanation">$ perform calculation</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="Keyword">if</span><span class="Argument">(<span class="Variable">@operator</span><span class="Operator"> == </span></span><span class="String">"+"</span><span class="Argument">)</span><span class="Operator"> &lt;&lt;</span>
+                            </div>
+                            <div>
+                                <span class="Keyword">&ensp;&ensp;add</span><span class="Argument">(</span><span class="Variable">@num1</span><span class="Argument">, </span><span class="Variable">@num2</span><span class="Arrow"> => </span><span class="Argument">result)</span>
+                            </div>
+                            <div>
+                                <span class="Operator">&gt;&gt;</span>
+                            </div>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <div>
+                                <span class="Keyword">if</span><span class="Argument">(<span class="Variable">@operator</span><span class="Operator"> == </span></span><span class="String">"-"</span><span class="Argument">)</span><span class="Operator"> &lt;&lt;</span>
+                            </div>
+                            <div>
+                                <span class="Keyword">&ensp;&ensp;sub</span><span class="Argument">(</span><span class="Variable">@num1</span><span class="Argument">, </span><span class="Variable">@num2</span><span class="Arrow"> => </span><span class="Argument">result)</span>
+                            </div>
+                            <div>
+                                <span class="Operator">&gt;&gt;</span>
+                            </div>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <div>
+                                <span class="Keyword">if</span><span class="Argument">(<span class="Variable">@operator</span><span class="Operator"> == </span></span><span class="String">"*"</span><span class="Argument">)</span><span class="Operator"> &lt;&lt;</span>
+                            </div>
+                            <div>
+                                <span class="Keyword">&ensp;&ensp;mul</span><span class="Argument">(</span><span class="Variable">@num1</span><span class="Argument">, </span><span class="Variable">@num2</span><span class="Arrow"> => </span><span class="Argument">result)</span>
+                            </div>
+                            <div>
+                                <span class="Operator">&gt;&gt;</span>
+                            </div>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <div>
+                                <span class="Keyword">if</span><span class="Argument">(<span class="Variable">@operator</span><span class="Operator"> == </span></span><span class="String">"/"</span><span class="Argument">)</span><span class="Operator"> &lt;&lt;</span>
+                            </div>
+                            <div>
+                                <span class="Keyword">&ensp;&ensp;div</span><span class="Argument">(</span><span class="Variable">@num1</span><span class="Argument">, </span><span class="Variable">@num2</span><span class="Arrow"> => </span><span class="Argument">result)</span>
+                            </div>
+                            <div>
+                                <span class="Operator">&gt;&gt;</span>
+                            </div>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(text<span class="String">"result: <span class="Variable">@result</span>"</span><span class="Argument">)
+                        </div>
+                        <div>
+                            <span class="Terminator">;</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
