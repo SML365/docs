@@ -26,7 +26,7 @@
 
 .Variable
 {
-    color: #fa32c8;
+    color: #ff6eff;
     font-size: var(--fs_span);
 }
 
@@ -131,7 +131,7 @@ body
 
 .LinkIntroduction
 {
-    color: #fa32c8;
+    color: #ff6eff;
 }
 
 .LinkCommandsList
@@ -251,7 +251,7 @@ body
 
 .Landing .Text .NavButtons .IntroductionButton:hover
 {
-    background-color: #fa32c8;;
+    background-color: #ff6eff;;
     cursor: pointer;
 }
 
@@ -296,7 +296,7 @@ body
 
 .Introduction .Text .Title
 {
-    color: #fa32c8;
+    color: #ff6eff;
     font-size: 25px;
 }
 

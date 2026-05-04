@@ -43,7 +43,7 @@
                             <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter second number: "</span><span class="Argument"><span class="Arrow"> => </span>num2)</span>
                         </div>
                         <div>
-                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter operator (+, -, *, /): "</span><span class="Argument"><span class="Arrow"> => </span>operator)</span>
+                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter operator {+|-|*|/}: "</span><span class="Argument"><span class="Arrow"> => </span>operator)</span>
                         </div>
                         <div class="Break"></div>
                         <div>
@@ -100,6 +100,52 @@
                         <div>
                             <span class="Keyword">paste</span><span class="Argument">(text<span class="String">"result: <span class="Variable">@result</span>"</span><span class="Argument">)
                         </div>
+                        <div>
+                            <span class="Terminator">;</span>
+                        </div>
+                        <div class="WideBreak"></div>
+                    </div>
+                    <div class="WideBreak"></div>
+
+                    <span class="White" id="Program2">Fibonacci Sequence: </span>
+                    <div class="Break"></div>
+
+                    <div class="CodeBlock">
+                        <div>
+                            <span class="Explanation">$ define variables</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(num1<span class="Operator"> = </span>0)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(num2<span class="Operator"> = </span>1)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(temp</span><span class="Argument">)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Explanation">$ generate infinite fibonacci sequence</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">loop</span><span class="Argument">(0) </span><span class="Operator">&lt;&lt;</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;paste</span><span class="Argument">(text<span class="String">"<span class="Variable">@num1</span>"</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;add</span><span class="Argument">(<span class="Variable">@num1</span>, <span class="Variable">@num2</span><span class="Arrow"> => </span>temp)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;var</span><span class="Argument">(num1<span class="Operator"> = </span><span class="Variable">@num2</span>)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;var</span><span class="Argument">(num2<span class="Operator"> = </span><span class="Variable">@temp</span>)</span>
+                        </div>
+                        <div>
+                            <span class="Operator">&gt;&gt;</span>
+                        </div>
+                        <div class="Break"></div>
                         <div>
                             <span class="Terminator">;</span>
                         </div>
