@@ -237,6 +237,71 @@
                             <span class="Terminator">;</span>
                         </div>
                     </div>
+                    <div class="WideBreak"></div>
+
+                    <span class="White" id="Program4">Reverse a String: </span>
+                    <div class="Break"></div>
+
+                    <div class="CodeBlock">
+                        <div>
+                            <span class="Explanation">$ define variables</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(input</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(length</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(reversed</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(letter</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(index</span><span class="Argument">)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Explanation">$ get user input</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(input</span><span class="String">"enter a string: "</span><span class="Argument"><span class="Arrow"> => </span>input)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Keyword">length</span><span class="Argument">(<span class="Variable">@input</span><span class="Arrow"> => </span>length)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">var</span><span class="Argument">(index<span class="Operator"> = </span><span class="Variable">@length</span>)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Explanation">$ build the reversed string</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">loop</span><span class="Argument">(<span class="Variable">@length</span>) </span><span class="Operator">&lt;&lt;</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;letter</span><span class="Argument">(<span class="Variable">@index</span>, <span class="Variable">@input</span> <span class="Arrow">=> </span><span class="Argument">letter</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;concat</span><span class="Argument">(<span class="Variable">@reversed</span>, <span class="Variable">@letter</span><span class="Arrow"> => </span><span class="Argument">reversed)</span>
+                        </div>
+                        <div>
+                            <span class="Keyword">&ensp;&ensp;sub</span><span class="Argument">(<span class="Variable">@index</span>, 1 <span class="Arrow"> => </span><span class="Argument">index</span><span class="Argument">)</span>
+                        </div>
+                        <div>
+                            <span class="Operator">&ensp;&ensp;&gt;&gt;</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Keyword">paste</span><span class="Argument">(text<span class="String">"reversed string: <span class="Variable">@reversed</span>"</span><span class="Argument">)</span>
+                        </div>
+                        <div class="Break"></div>
+                        <div>
+                            <span class="Terminator">;</span>
+                    </div>
                 </div>
             </div>
         </div>
